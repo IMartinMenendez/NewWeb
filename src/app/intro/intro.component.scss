@@ -7,7 +7,7 @@
   z-index: 1;
   min-height: 100vh;
 
-  h1 {
+  #intro h1 {
     font-size: 5rem;
     line-height: 1;
   }
@@ -81,3 +81,44 @@ header {
       display: none;
     }
   }
+
+#intro {
+  color: #ffffff;
+  padding: 8rem 4rem 6rem 4rem;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-justify-content: -moz-flex-end;
+  -ms-justify-content: -ms-flex-end;
+  justify-content: flex-end;
+  -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease;
+  position: relative;
+  cursor: default;
+  text-align: center;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+body.is-preload #intro {
+  opacity: 1;
+}
+
+body.is-preload #intro:not(.hidden) + #header + #nav {
+  -moz-transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  opacity: 1;
+}

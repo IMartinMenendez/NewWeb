@@ -1,0 +1,151 @@
+///
+/// Massively by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Form */
+
+form {
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+
+    > .field {
+      padding: $gutter 0 0 $gutter;
+    }
+  }
+
+label {
+  display: block;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  background: transparent;
+  border-radius: 0;
+  border: solid 2px;
+  color: inherit;
+  display: block;
+  outline: 0;
+  padding: 0 1rem;
+  text-decoration: none;
+  width: 100%;
+
+  &:invalid {
+    box-shadow: none;
+  }
+}
+
+select {
+  background-size: 1.25rem;
+  background-repeat: no-repeat;
+  text-overflow: ellipsis;
+
+  &:focus {
+    &::-ms-value {
+      background-color: transparent;
+    }
+  }
+
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+}
+
+textarea {
+  padding: 0.75rem 1rem;
+}
+
+input[type="checkbox"],
+input[type="radio"], {
+  display: block;
+  float: left;
+  margin-right: -2rem;
+  opacity: 0;
+  width: 1rem;
+  z-index: -1;
+
+  & + label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-transform: none;
+    padding-right: 1rem;
+    position: relative;
+
+    &:before {
+      border-radius: 0;
+      border: solid 2px;
+      content: '';
+      display: inline-block;
+      font-size: 0.8rem;
+      left: 0;
+      position: absolute;
+      text-align: center;
+      top: -0.125rem;
+    }
+  }
+
+  &:checked + label {
+    &:before {
+      content: '\f00c';
+    }
+  }
+}
+
+input[type="checkbox"] {
+  & + label {
+    &:before {
+      border-radius: 0;
+    }
+  }
+}
+
+input[type="radio"] {
+  & + label {
+    &:before {
+      border-radius: 100%;
+    }
+  }
+}
+
+::-webkit-input-placeholder {
+  opacity: 1.0;
+}
+
+:-moz-placeholder {
+  opacity: 1.0;
+}
+
+::-moz-placeholder {
+  opacity: 1.0;
+}
+
+:-ms-input-placeholder {
+  opacity: 1.0;
+}
+
+
+  .select-wrapper {
+    &:before {
+    }
+  }
+
