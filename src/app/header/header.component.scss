@@ -1,0 +1,33 @@
+///
+/// Massively by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Header */
+
+#header {
+  height: 20rem;
+  padding-bottom:  4px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+
+  .logo {
+
+    border-style: solid;
+    border-width: 5px !important;
+    font-size: 2.25rem;
+    letter-spacing: 0.075em;
+    line-height: 1;
+    padding: 1rem 1.75rem;
+    text-transform: uppercase;
+    visibility: visible;
+
+  }
+
+    .logo {
+      font-size: 1.75rem;
+      border-width: 3px !important;
+    }
+}
