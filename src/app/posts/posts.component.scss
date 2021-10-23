@@ -1,0 +1,187 @@
+/* Image */
+
+.image {
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.image img {
+  display: block;
+}
+
+.image.left, .image.right {
+  max-width: 40%;
+}
+
+.image.left img, .image.right img {
+  width: 100%;
+}
+
+.image.left {
+  float: left;
+  margin: 0 2rem 2rem 0;
+  top: 0.75rem;
+}
+
+.image.right {
+  float: right;
+  margin: 0 0 2rem 2rem;
+  top: 0.75rem;
+}
+
+.image.fit {
+  display: block;
+  margin: 2.5rem 0;
+  width: 100%;
+}
+
+.image.fit:first-child {
+  margin-top: 0;
+}
+
+.image.fit img {
+  width: 100%;
+}
+
+.image.main {
+  display: block;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+.image.main:first-child {
+  margin-top: 0;
+}
+
+.image.main img {
+  width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+
+  .image.fit {
+    margin: 2rem 0;
+  }
+
+  .image.main {
+    margin: 2rem 0;
+  }
+
+}
+
+a.image {
+  overflow: hidden;
+}
+
+a.image img {
+  -moz-transition: -moz-transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -ms-transition: -ms-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+
+a.image:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.featured{
+  text-align: center;
+  padding: 8rem 8rem 6rem 8rem;
+  p{
+    text-align: center;
+  }
+}
+
+h2{
+  a{
+    font-size: 100px;
+  }
+}
+
+.footer{
+  text-align: center;
+  margin: auto;
+}
+
+table{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fit{
+  min-width: 400px!important;
+  max-width: 400px!important;
+}
+
+tr{
+   text-align: center;
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#main > .posts > article {
+  border-color: #eeeeee;
+  border-left-width: 2px;
+  border-style: solid;
+  border-top-width: 2px;
+  text-align: center;
+}
+#main > .posts > * {
+  padding: 4rem;
+  width: 50%;
+}
+
+#main > .posts {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -moz-align-items: -moz-stretch;
+  -ms-align-items: -ms-stretch;
+  align-items: stretch;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+#main > * {
+  padding: 4rem 4rem 2rem 4rem;
+  border-top: solid 2px #eeeeee;
+  margin: 0;
+}
+
+td {
+  border-color: #eeeeee;
+  border-left-width: 2px;
+  border-style: solid;
+  border-top-width: 2px;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+
+.image{
+
+      text-align: center!important;
+      margin: auto!important;
+}
+
+td{
+  padding-right: 60px!important;
+  padding-left: 60px!important;
+}
+
+img{
+  margin-bottom: 40px;
+}

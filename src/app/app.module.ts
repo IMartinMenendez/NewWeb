@@ -10,6 +10,7 @@ import { PostsComponent } from './posts/posts.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { FooterComponent } from './footer/footer.component';
 import { CopyrightComponent } from './copyright/copyright.component';
+import { NavegationComponent } from './navegation/navegation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CopyrightComponent } from './copyright/copyright.component';
     PostsComponent,
     PaginationComponent,
     FooterComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    NavegationComponent
   ],
   imports: [
     BrowserModule
