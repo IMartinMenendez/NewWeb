@@ -59,12 +59,10 @@
 }
 
 .pagination .previous:before {
-  content: '\f104';
-  margin-right: 0.9375em;
+    margin-right: 0.9375em;
 }
 
 .pagination .next:before {
-  content: '\f105';
   float: right;
   margin-left: 0.9375em;
 }

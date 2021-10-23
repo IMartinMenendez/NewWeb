@@ -12,6 +12,7 @@
 .logo{
   color: white;
   font-size: 30px;
+  margin-top: 10px!important;
 }
 
 body.dark #demo-header .selector li.active {
@@ -46,6 +47,7 @@ ul.selector li {
   height: 2.75em;
   border-top-width: 1px;
   border-bottom-width: 1px;
+  border-right-width: 1px;
 }
 
 ul.selector {
@@ -352,5 +354,9 @@ ul.share {
   font-weight: 600;
   color: inherit;
   overflow: hidden;
+}
+
+a{
+  text-decoration-color: white!important;
 }
 
